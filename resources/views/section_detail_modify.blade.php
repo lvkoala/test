@@ -71,8 +71,9 @@
                     echo"<button type=\"submit\" class=\"btn btn-default\" >submit</button>";
                     echo "<br/>";
                     echo "<br/>";
-                    echo "</form>";
-
+                ?>
+            </form>
+<?php
                     echo "<iframe id=\"id_iframe\" name=\"nm_iframe\" style=\"display:none;\"></iframe>";
                     echo"<br/>";
                     echo"<br/>";
@@ -86,8 +87,8 @@
                 echo"<br/>";
                 echo"<br/>";
                 echo"<br/>";
+?>
 
-                ?>
 
 
 

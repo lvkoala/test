@@ -22,7 +22,7 @@
     <div class="row">
         <div class="col-xs-1 col-sm-2 col-md-2"></div>
         <div class="col-xs-12 col-sm-8 col-md-8">
-            <form action="/casedetail_add" method="POST" ">
+            <form action="/casedetail_add" method="POST">
 
                 {{ csrf_field()}}
                 <?php
@@ -60,8 +60,9 @@
                 echo"<button type=\"submit\" class=\"btn btn-default\" >submit</button>";
                 echo "<br/>";
                 echo "<br/>";
-                echo "</form>";
-
+                ?>
+                </form>
+            <?php
                 echo "<iframe id=\"id_iframe\" name=\"nm_iframe\" style=\"display:none;\"></iframe>";
                 echo"<br/>";
                 echo"<br/>";

@@ -78,8 +78,9 @@
     echo"<button type=\"submit\" class=\"btn btn-default\" >submit</button>";
     echo "<br/>";
     echo "<br/>";
-    echo "</form>";
-    echo "<br/>";
+    ?>
+    </form>
+    <?php echo "<br/>";
     echo "<br/>";
     echo "<br/>";
     echo "<br/>";
