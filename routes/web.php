@@ -118,7 +118,7 @@ Route::get('delete/chapter/{id}/section/{section_counter}','ShowSectionContentCo
 
 
 
-Route::group(['prefix' => 'admin'], function () {
+Route::group(['prefix' => 'register'], function () {
     Route::get('agreement', function () {
         return view('register_agreement');
     });
