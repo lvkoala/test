@@ -22,7 +22,6 @@ class CreateUserSectionAnswerTable extends Migration
             $table->text('answer')->nullable();
             $table->integer('score')->nullable();
             $table->integer('full_score')->nullable();
-            $table->primary(['user_id', 'chapter_id', 'question_id', 'section_id']);
         });
     }
 
